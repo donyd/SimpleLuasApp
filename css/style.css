@@ -24,6 +24,18 @@ h4, p {
   padding-left: 1em;
 }
 
+#getInfo {
+  margin-left: 1em;
+}
+
+button {
+  background-color: hsl(128, 45%, 50%);
+  border: 0;
+  border-radius: 2px;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+
 .time {
   line-height: 0.2em;
   padding-left: 1em;
@@ -31,7 +43,8 @@ h4, p {
 }
 
 #timecard {
-  border: 1px dotted gray;
+  text-align: center;
+  border: 1px dashed hsl(128, 45%, 50%);
   margin: auto;
   width: 45%;
 }
