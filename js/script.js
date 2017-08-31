@@ -21,7 +21,8 @@ var getLuasTime = function(){
       if(httpRequest.status === 200){
         alert(httpRequest.responseText);
       } else {
-        alert('There was a problem with the request\n' + httpRequest.responseText);
+        alert('There was a problem with the request\n');
+		alert(httpRequest.responseText);
       }
     }
   }
