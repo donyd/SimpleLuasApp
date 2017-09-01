@@ -12,7 +12,7 @@ var getLuasTime = function(){
     }
 
     httpRequest.onreadystatechange = alertContents;
-    httpRequest.open('GET', 'http://luasforecasts.rpa.ie/xml/get.ashx?action=forecast&stop=sti&encrypt=false');
+    httpRequest.open('GET', 'https://luasforecasts.rpa.ie/xml/get.ashx?action=forecast&stop=sti&encrypt=false');
     httpRequest.send();
   }
 
